@@ -1,0 +1,52 @@
+﻿@model LoginViewModel
+@{
+    Layout = "_AuthLayout";
+}
+
+<section class="section">
+    <div class="container">
+
+            <h1 class="title is-spaced">Login</h1>
+
+        @Html.Partial("_ValidationSummary")
+
+            <form asp-route="Login">
+                <input type="hidden" asp-for="ReturnUrl" />
+                
+                    <div class="field">
+                        <label asp-for="Username" class="label"></label>
+                        <input class="input" placeholder="Username" asp-for="Username" autofocus>
+                    </div>
+                    <div class="field">
+                        <label asp-for="Password" class="label"></label>
+                        <input type="password" class="input" placeholder="Password" asp-for="Password" autocomplete="off">
+                    </div>
+                    @if (Model.AllowRememberLogin)
+                    {
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input asp-for="RememberLogin">
+                                    Remember My Login
+                                </label>
+                            </div>
+                        </div>
+                    }
+
+                
+                <div class="field is-grouped">
+                    <p class="control">
+                        <button class="button is-primary" name="button" value="login">Login</button>
+                    </p>
+                    @*<p class="control">
+                        <button class="button is-text" name="button" value="cancel">Cancel</button>
+                    </p>*@
+                </div>
+
+               
+            </form>
+
+    </div>
+</section>
+
+

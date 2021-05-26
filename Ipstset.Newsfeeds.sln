@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Domain", "src\Ipstset.Newsfeeds.Domain\Ipstset.Newsfeeds.Domain.csproj", "{4672A2A2-99C6-4B99-B4EA-003F6FF3EBD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{395E83BC-AFF8-4E01-980F-C2867D1E3538}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Domain.Tests", "tests\Ipstset.Newsfeeds.Domain.Tests\Ipstset.Newsfeeds.Domain.Tests.csproj", "{70811AC3-8F7E-4EAC-A41A-45450135C7D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Application", "src\Ipstset.Newsfeeds.Application\Ipstset.Newsfeeds.Application.csproj", "{FD636566-3B93-4602-96E7-ABF41925CEE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Infrastructure", "src\Ipstset.Newsfeeds.Infrastructure\Ipstset.Newsfeeds.Infrastructure.csproj", "{77E2D8EE-D864-4E1C-8E9F-209DF4ED8AC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Application.Tests", "tests\Ipstset.Newsfeeds.Application.Tests\Ipstset.Newsfeeds.Application.Tests.csproj", "{D61FAC59-AC58-4667-B996-7F327529B1CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Tests.Common", "tests\Ipstset.Newsfeeds.Tests.Common\Ipstset.Newsfeeds.Tests.Common.csproj", "{6274004E-1025-4FC6-89D2-BD4860E1EE1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Infrastructure.Tests", "tests\Ipstset.Newsfeeds.Infrastructure.Tests\Ipstset.Newsfeeds.Infrastructure.Tests.csproj", "{AF1D8F19-EF3A-473E-882B-D4B332EEA885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ipstset.Newsfeeds.Api", "src\Ipstset.Newsfeeds.Api\Ipstset.Newsfeeds.Api.csproj", "{10DEDD86-067D-43B4-9BF8-C36DB179ED4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipstset.Newsfeeds.Api.Tests", "tests\Ipstset.Newsfeeds.Api.Tests\Ipstset.Newsfeeds.Api.Tests.csproj", "{226DE683-4F02-479A-8AE4-1A0E26189798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4672A2A2-99C6-4B99-B4EA-003F6FF3EBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4672A2A2-99C6-4B99-B4EA-003F6FF3EBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4672A2A2-99C6-4B99-B4EA-003F6FF3EBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4672A2A2-99C6-4B99-B4EA-003F6FF3EBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70811AC3-8F7E-4EAC-A41A-45450135C7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70811AC3-8F7E-4EAC-A41A-45450135C7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70811AC3-8F7E-4EAC-A41A-45450135C7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70811AC3-8F7E-4EAC-A41A-45450135C7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD636566-3B93-4602-96E7-ABF41925CEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD636566-3B93-4602-96E7-ABF41925CEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD636566-3B93-4602-96E7-ABF41925CEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD636566-3B93-4602-96E7-ABF41925CEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E2D8EE-D864-4E1C-8E9F-209DF4ED8AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E2D8EE-D864-4E1C-8E9F-209DF4ED8AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E2D8EE-D864-4E1C-8E9F-209DF4ED8AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E2D8EE-D864-4E1C-8E9F-209DF4ED8AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61FAC59-AC58-4667-B996-7F327529B1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61FAC59-AC58-4667-B996-7F327529B1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61FAC59-AC58-4667-B996-7F327529B1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61FAC59-AC58-4667-B996-7F327529B1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6274004E-1025-4FC6-89D2-BD4860E1EE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6274004E-1025-4FC6-89D2-BD4860E1EE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6274004E-1025-4FC6-89D2-BD4860E1EE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6274004E-1025-4FC6-89D2-BD4860E1EE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1D8F19-EF3A-473E-882B-D4B332EEA885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1D8F19-EF3A-473E-882B-D4B332EEA885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1D8F19-EF3A-473E-882B-D4B332EEA885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1D8F19-EF3A-473E-882B-D4B332EEA885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DEDD86-067D-43B4-9BF8-C36DB179ED4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DEDD86-067D-43B4-9BF8-C36DB179ED4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DEDD86-067D-43B4-9BF8-C36DB179ED4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DEDD86-067D-43B4-9BF8-C36DB179ED4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226DE683-4F02-479A-8AE4-1A0E26189798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226DE683-4F02-479A-8AE4-1A0E26189798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226DE683-4F02-479A-8AE4-1A0E26189798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226DE683-4F02-479A-8AE4-1A0E26189798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70811AC3-8F7E-4EAC-A41A-45450135C7D2} = {395E83BC-AFF8-4E01-980F-C2867D1E3538}
+		{D61FAC59-AC58-4667-B996-7F327529B1CA} = {395E83BC-AFF8-4E01-980F-C2867D1E3538}
+		{6274004E-1025-4FC6-89D2-BD4860E1EE1F} = {395E83BC-AFF8-4E01-980F-C2867D1E3538}
+		{AF1D8F19-EF3A-473E-882B-D4B332EEA885} = {395E83BC-AFF8-4E01-980F-C2867D1E3538}
+		{226DE683-4F02-479A-8AE4-1A0E26189798} = {395E83BC-AFF8-4E01-980F-C2867D1E3538}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78462719-C3C8-4B1A-8748-60C4C1D41C50}
+	EndGlobalSection
+EndGlobal
